@@ -5,13 +5,21 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "aatt": "nodemon --exec ts-node aatt/index.ts"
+        "aatt": "node src/aatt/index.js",
+        "lighthouse": "node src/lighthouse/index.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@types/node": "^14.11.1",
         "ts-node": "^9.0.0",
         "typescript": "^4.0.2"
+    },
+    "dependencies": {
+        "aatt": "^1.0.1",
+        "chrome-launcher": "^0.13.4",
+        "lighthouse": "^6.3.0",
+        "nemo-accessibility": "^4.0.0"
     }
 }

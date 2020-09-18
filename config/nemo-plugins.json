@@ -1,0 +1,10 @@
+{
+    "nemo-accessibility": {
+        "module": "nemo-accessibility",
+        "arguments": [
+            {
+                "engine": "axe"
+            }
+        ]
+    }
+}
