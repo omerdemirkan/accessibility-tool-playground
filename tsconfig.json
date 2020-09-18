@@ -19,7 +19,8 @@
         "./*",
         "src/**/*.ts",
         "src/lighthouse/index.js",
-        "src/aatt/index.js"
+        "src/aatt/index.js",
+        "src/axe-core/index.js"
     ],
     "exclude": ["node_modules/**"]
 }

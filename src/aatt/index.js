@@ -1,4 +1,4 @@
-import { evaluate } from "aatt";
+const { evaluate } = require("aatt");
 
 evaluate({
     source:
@@ -7,9 +7,5 @@ evaluate({
     engine: "htmlcs",
     level: "WCAG2A",
 })
-    .then((result) => {
-        console.log(result);
-    })
-    .catch((err) => {
-        console.log(err);
-    });
+    .then(console.log)
+    .catch(console.error);
