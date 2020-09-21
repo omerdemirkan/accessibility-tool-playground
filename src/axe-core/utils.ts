@@ -5,10 +5,10 @@ export async function evaluateUrl(url: string): Promise<axe.AxeResults> {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
+    await page.goto(url);
     await page.addScriptTag({
         path: require.resolve("axe-core"),
     });
-    await page.goto(url);
 
     const axeResults = (await page.evaluate(
         "(async () => await axe.run())()"
@@ -25,10 +25,10 @@ export async function evaluateRawHtml(
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
+    await page.setContent(rawHtml);
     await page.addScriptTag({
         path: require.resolve("axe-core"),
     });
-    await page.setContent(rawHtml);
 
     const axeResults = (await page.evaluate(
         "(async () => await axe.run())()"
