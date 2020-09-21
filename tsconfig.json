@@ -15,12 +15,6 @@
         "outDir": "./build",
         "experimentalDecorators": true
     },
-    "include": [
-        "./*",
-        "src/**/*.ts",
-        "src/lighthouse/index.js",
-        "src/aatt/index.js",
-        "src/axe-core/index.js"
-    ],
+    "include": ["./*", "src/**/*.ts"],
     "exclude": ["node_modules/**"]
 }

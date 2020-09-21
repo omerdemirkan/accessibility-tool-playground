@@ -1,26 +1,13 @@
-import axe from "axe-core";
-import puppeteer from "puppeteer";
-import util from "util";
-
-const url = "https://what-time.herokuapp.com/";
-
-const results = [];
-let axeResults;
+import { testUrl, testUrls, testRawHtml } from "./data";
+import { evaluateUrl, evaluateRawHtml, evaluateUrls } from "./utils";
 
 (async function () {
-    const browser = await puppeteer.launch();
+    const urlResults = await evaluateUrl(testUrl);
+    console.log(urlResults);
 
-    const page = await browser.newPage();
+    const rawHtmlResults = await evaluateRawHtml(testRawHtml);
+    console.log(rawHtmlResults);
 
-    await page.goto(url);
-
-    await page.addScriptTag({
-        path: require.resolve("axe-core"),
-    });
-
-    axeResults = await page.evaluate(`async () => console.log("hello")`);
-
-    console.log(axeResults);
-
-    browser.close();
+    const urlsResults = await evaluateUrls(testUrls);
+    console.log(urlsResults);
 })();
