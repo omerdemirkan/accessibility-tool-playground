@@ -10,9 +10,7 @@ export async function evaluateUrl(url: string): Promise<axe.AxeResults> {
         path: require.resolve("axe-core"),
     });
 
-    const axeResults = (await page.evaluate(
-        "(async () => await axe.run())()"
-    )) as axe.AxeResults;
+    const axeResults = (await page.evaluate("axe.run()")) as axe.AxeResults;
 
     browser.close();
 
@@ -30,9 +28,7 @@ export async function evaluateRawHtml(
         path: require.resolve("axe-core"),
     });
 
-    const axeResults = (await page.evaluate(
-        "(async () => await axe.run())()"
-    )) as axe.AxeResults;
+    const axeResults = (await page.evaluate("axe.run()")) as axe.AxeResults;
     browser.close();
 
     return axeResults;
@@ -52,8 +48,9 @@ export async function evaluateUrls(urls: string[]): Promise<axe.AxeResults[]> {
                     path: require.resolve("axe-core"),
                 });
                 const axeResults = (await page.evaluate(
-                    "(async () => await axe.run())()"
+                    "axe.run()"
                 )) as axe.AxeResults;
+                page.close();
                 return axeResults;
             })()
         );
