@@ -7,13 +7,15 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "aatt": "node src/aatt/index.js",
         "lighthouse": "node src/lighthouse/index.js",
-        "axe": "ts-node src/axe-core/index.ts"
+        "axe": "ts-node src/axe-core/index.ts",
+        "htmlcs": "ts-node src/htmlcs/index.ts"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
         "@types/axe-core": "^2.0.7",
+        "@types/html_codesniffer": "^2.5.0",
         "@types/node": "^14.11.1",
         "@types/puppeteer": "^3.0.2",
         "ts-node": "^9.0.0",
@@ -23,6 +25,7 @@
         "aatt": "^1.0.1",
         "axe-core": "^4.0.2",
         "chrome-launcher": "^0.13.4",
+        "html_codesniffer": "^2.5.1",
         "lighthouse": "^6.3.0",
         "nemo-accessibility": "^4.0.0",
         "puppeteer": "^5.3.0"

@@ -1,4 +1,4 @@
-import { testUrl, testUrls, testRawHtml } from "./data";
+import { testUrl, testUrls, testRawHtml } from "../data";
 import { evaluateUrl, evaluateRawHtml, evaluateUrls } from "./utils";
 
 (async function () {
