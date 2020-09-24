@@ -15,6 +15,6 @@
         "outDir": "./build",
         "experimentalDecorators": true
     },
-    "include": ["./*", "src/**/*.ts"],
+    "include": ["./*", "src/**/*.ts", "src/data.js"],
     "exclude": ["node_modules/**"]
 }

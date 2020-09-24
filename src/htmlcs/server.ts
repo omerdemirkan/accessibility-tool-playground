@@ -1,7 +1,10 @@
+import express, { Request, Response } from "express";
+import { testUrl } from "../data";
 import puppeteer from "puppeteer";
-import htmlcs from "html_codesniffer";
 
-export async function evaluateUrl(url: string) {
+const app = express();
+
+app.get("/", async function (req: Request, res: Response) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
@@ -10,20 +13,12 @@ export async function evaluateUrl(url: string) {
         htmlcsResults.push(msg.text());
     });
 
-    await page.goto(url);
+    await page.goto(testUrl);
     await page.addScriptTag({
         path: require.resolve("html_codesniffer/build/HTMLCS.js"),
     });
 
-    await page.evaluate(`
-        HTMLCS_RUNNER.run("WCAG2AAA")
-    `);
+    res.send(await page.content());
+});
 
-    browser.close();
-
-    return htmlcsResults;
-}
-
-export function evaluateRawHtml(content: string) {
-    htmlcs.run(console.log, content);
-}
+export default app;

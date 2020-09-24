@@ -1,10 +1,10 @@
-export const testUrl = "http://stembound.education/";
-export const testUrls = [
+module.exports.testUrl = "http://stembound.education/";
+module.exports.testUrls = [
     "http://stembound.education/",
     "https://www.google.com/",
     "https://www.npmjs.com/package/axe-core",
 ];
-export const testRawHtml = `<!DOCTYPE html>
+module.exports.testRawHtml = `<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />

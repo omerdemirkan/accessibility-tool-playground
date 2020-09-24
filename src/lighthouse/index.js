@@ -1,7 +1,7 @@
 const lighthouse = require("lighthouse");
 const chromeLauncher = require("chrome-launcher");
 
-const url = "https://what-time.herokuapp.com/";
+const url = "https://www.csun.edu";
 
 (async () => {
     const chrome = await chromeLauncher.launch({ chromeFlags: ["--headless"] });
@@ -13,9 +13,7 @@ const url = "https://what-time.herokuapp.com/";
     };
     const runnerResult = await lighthouse(url, options);
 
-    // `.report` is the HTML report as a string
-    const reportHtml = runnerResult.report;
-    // console.log(reportHtml);
+    // const reportHtml = runnerResult.report;
 
     console.log(runnerResult.lhr.categories.accessibility);
 
