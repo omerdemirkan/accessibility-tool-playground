@@ -8,7 +8,8 @@
         "aatt": "node src/aatt/index.js",
         "lighthouse": "node src/lighthouse/index.js",
         "axe": "ts-node src/axe-core/index.ts",
-        "htmlcs": "ts-node src/htmlcs/index.ts"
+        "htmlcs": "ts-node src/htmlcs/index.ts",
+        "puppeteer": "ts-node src/puppeteer/index.ts"
     },
     "keywords": [],
     "author": "",
