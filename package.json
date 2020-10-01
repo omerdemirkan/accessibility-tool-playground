@@ -7,8 +7,8 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "aatt": "node src/aatt/index.js",
         "lighthouse": "node src/lighthouse/index.js",
-        "axe": "ts-node src/axe-core/index.ts",
-        "htmlcs": "ts-node src/htmlcs/index.ts",
+        "axe": "node src/axe-core/index.js",
+        "htmlcs": "node src/htmlcs/index.js",
         "puppeteer": "ts-node src/puppeteer/index.ts"
     },
     "keywords": [],

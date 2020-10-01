@@ -1,7 +1,7 @@
-import axe from "axe-core";
-import puppeteer from "puppeteer";
+const axe = require("axe-core");
+const puppeteer = require("puppeteer");
 
-export async function evaluateUrl(url: string): Promise<axe.AxeResults> {
+module.exports.evaluateUrl = async function (url) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
@@ -10,16 +10,20 @@ export async function evaluateUrl(url: string): Promise<axe.AxeResults> {
         path: require.resolve("axe-core"),
     });
 
-    const axeResults = (await page.evaluate("axe.run()")) as axe.AxeResults;
+    const axeResults = await page.evaluate(async function () {
+        const results = await axe.run();
+        results.violations.forEach((violation) => {
+            violation.selectors = violation.nodes.map((node) => node.xpath);
+        });
+        return results;
+    });
 
     browser.close();
 
     return axeResults;
-}
+};
 
-export async function evaluateRawHtml(
-    rawHtml: string
-): Promise<axe.AxeResults> {
+module.exports.evaluateRawHtml = async function (rawHtml) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
@@ -28,16 +32,16 @@ export async function evaluateRawHtml(
         path: require.resolve("axe-core"),
     });
 
-    const axeResults = (await page.evaluate("axe.run()")) as axe.AxeResults;
+    const axeResults = await page.evaluate("axe.run()");
     browser.close();
 
     return axeResults;
-}
+};
 
-export async function evaluateUrls(urls: string[]): Promise<axe.AxeResults[]> {
+module.exports.evaluateUrls = async function (urls) {
     const browser = await puppeteer.launch();
 
-    let promises: Promise<axe.AxeResults>[] = [];
+    let promises = [];
 
     urls.forEach(function (url) {
         promises.push(
@@ -47,9 +51,7 @@ export async function evaluateUrls(urls: string[]): Promise<axe.AxeResults[]> {
                 await page.addScriptTag({
                     path: require.resolve("axe-core"),
                 });
-                const axeResults = (await page.evaluate(
-                    "axe.run()"
-                )) as axe.AxeResults;
+                const axeResults = await page.evaluate(async () => axe.run());
                 page.close();
                 return axeResults;
             })()
@@ -57,4 +59,4 @@ export async function evaluateUrls(urls: string[]): Promise<axe.AxeResults[]> {
     });
 
     return await Promise.all(promises);
-}
+};

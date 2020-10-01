@@ -2,6 +2,9 @@ import puppeteer from "puppeteer";
 
 const spwaUrl = "https://synonymy-app.herokuapp.com/";
 
+// In order to check that the { waitUntil: "networkidle0" } provides for
+// a complete client-side rendering of html and
+
 (async function () {
     const browser = await puppeteer.launch();
 
