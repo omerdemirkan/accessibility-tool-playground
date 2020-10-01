@@ -3,11 +3,7 @@ const { evaluateUrl, evaluateRawHtml, evaluateUrls } = require("./utils");
 
 (async function () {
     const urlResults = await evaluateUrl(testUrl);
-    urlResults.violations.forEach(function (violation) {
-        violation.nodes.forEach(function (node) {
-            console.log(node);
-        });
-    });
+    console.log(urlResults);
 
     // const rawHtmlResults = await evaluateRawHtml(
     //     "https://synonymy-app.herokuapp.com/"
