@@ -11,7 +11,7 @@ module.exports.evaluateUrl = async function (url) {
     });
 
     const htmlcsResults = await page.evaluate(async function () {
-        HTMLCS_RUNNER.run("WCAG2AAA");
+        HTMLCS_RUNNER.run("Section508");
         let messages = HTMLCS.getMessages();
 
         const messagesHashTable = {};

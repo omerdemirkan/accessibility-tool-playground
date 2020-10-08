@@ -1,0 +1,411 @@
+{
+ "Section508.A.Img.GeneralAlt": [
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  },
+  {
+   "type": 3,
+   "element": {},
+   "msg": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image."
+  }
+ ],
+ "Section508.D.HeadingOrder": [
+  {
+   "type": 1,
+   "element": {},
+   "msg": "The heading structure is not logically nested. This h2 element appears to be the primary document heading, so should be an h1 element."
+  },
+  {
+   "type": 1,
+   "element": {},
+   "msg": "The heading structure is not logically nested. This h4 element should be an h3 to be properly nested."
+  }
+ ],
+ "Section508.N.Errors": [
+  {
+   "type": 3,
+   "element": {
+    "0": {},
+    "1": {},
+    "2": {}
+   },
+   "msg": "If an input error is automatically detected in this form, check that the item(s) in error are identified and the error(s) are described to the user in text."
+  }
+ ],
+ "Section508.N.Labels": [
+  {
+   "type": 3,
+   "element": {
+    "0": {},
+    "1": {},
+    "2": {}
+   },
+   "msg": "Check that descriptive labels or instructions (including for required fields) are provided for user input in this form."
+  }
+ ],
+ "Section508.N.KeyboardNav": [
+  {
+   "type": 3,
+   "element": {
+    "0": {},
+    "1": {},
+    "2": {}
+   },
+   "msg": "Ensure that this form can be navigated using the keyboard and other accessibility tools."
+  }
+ ],
+ "Section508.A.Img.Ignored": [
+  {
+   "type": 2,
+   "element": {},
+   "msg": "Img element is marked so that it is ignored by Assistive Technology."
+  }
+ ],
+ "Section508.C.Colour": [
+  {
+   "type": 3,
+   "element": {
+    "location": {
+     "ancestorOrigins": {},
+     "href": "https://www.csun.edu/",
+     "origin": "https://www.csun.edu",
+     "protocol": "https:",
+     "host": "www.csun.edu",
+     "hostname": "www.csun.edu",
+     "port": "",
+     "pathname": "/",
+     "search": "",
+     "hash": "",
+     "assign": {},
+     "reload": {},
+     "replace": {},
+     "toString": {}
+    },
+    "jQuery1602114278098": 1
+   },
+   "msg": "Ensure that any information conveyed using colour alone is also available without colour, such as through context or markup."
+  }
+ ],
+ "Section508.D.Linearised": [
+  {
+   "type": 3,
+   "element": {
+    "location": {
+     "ancestorOrigins": {},
+     "href": "https://www.csun.edu/",
+     "origin": "https://www.csun.edu",
+     "protocol": "https:",
+     "host": "www.csun.edu",
+     "hostname": "www.csun.edu",
+     "port": "",
+     "pathname": "/",
+     "search": "",
+     "hash": "",
+     "assign": {},
+     "reload": {},
+     "replace": {},
+     "toString": {}
+    },
+    "jQuery1602114278098": 1
+   },
+   "msg": "Ensure that content is ordered in a meaningful sequence when linearised, such as when style sheets are disabled."
+  }
+ ],
+ "Section508.D.HiddenText": [
+  {
+   "type": 3,
+   "element": {
+    "location": {
+     "ancestorOrigins": {},
+     "href": "https://www.csun.edu/",
+     "origin": "https://www.csun.edu",
+     "protocol": "https:",
+     "host": "www.csun.edu",
+     "hostname": "www.csun.edu",
+     "port": "",
+     "pathname": "/",
+     "search": "",
+     "hash": "",
+     "assign": {},
+     "reload": {},
+     "replace": {},
+     "toString": {}
+    },
+    "jQuery1602114278098": 1
+   },
+   "msg": "If content is hidden and made visible using scripting (such as \"click to expand\" sections), ensure this content is readable when scripts and style sheets are disabled."
+  }
+ ],
+ "Section508.J.Flicker": [
+  {
+   "type": 3,
+   "element": {
+    "location": {
+     "ancestorOrigins": {},
+     "href": "https://www.csun.edu/",
+     "origin": "https://www.csun.edu",
+     "protocol": "https:",
+     "host": "www.csun.edu",
+     "hostname": "www.csun.edu",
+     "port": "",
+     "pathname": "/",
+     "search": "",
+     "hash": "",
+     "assign": {},
+     "reload": {},
+     "replace": {},
+     "toString": {}
+    },
+    "jQuery1602114278098": 1
+   },
+   "msg": "Check that no component of the content flickers at a rate of greater than 2 and less than 55 times per second."
+  }
+ ],
+ "Section508.K.AltVersion": [
+  {
+   "type": 3,
+   "element": {
+    "location": {
+     "ancestorOrigins": {},
+     "href": "https://www.csun.edu/",
+     "origin": "https://www.csun.edu",
+     "protocol": "https:",
+     "host": "www.csun.edu",
+     "hostname": "www.csun.edu",
+     "port": "",
+     "pathname": "/",
+     "search": "",
+     "hash": "",
+     "assign": {},
+     "reload": {},
+     "replace": {},
+     "toString": {}
+    },
+    "jQuery1602114278098": 1
+   },
+   "msg": "If this page cannot be made compliant, a text-only page with equivalent information or functionality should be provided. The alternative page needs to be updated in line with this page's content."
+  }
+ ],
+ "Section508.O.SkipLinks": [
+  {
+   "type": 3,
+   "element": {
+    "location": {
+     "ancestorOrigins": {},
+     "href": "https://www.csun.edu/",
+     "origin": "https://www.csun.edu",
+     "protocol": "https:",
+     "host": "www.csun.edu",
+     "hostname": "www.csun.edu",
+     "port": "",
+     "pathname": "/",
+     "search": "",
+     "hash": "",
+     "assign": {},
+     "reload": {},
+     "replace": {},
+     "toString": {}
+    },
+    "jQuery1602114278098": 1
+   },
+   "msg": "Ensure that any common navigation elements can be bypassed; for instance, by use of skip links, header elements, or ARIA landmark roles."
+  }
+ ],
+ "Section508.P.TimeLimit": [
+  {
+   "type": 3,
+   "element": {
+    "location": {
+     "ancestorOrigins": {},
+     "href": "https://www.csun.edu/",
+     "origin": "https://www.csun.edu",
+     "protocol": "https:",
+     "host": "www.csun.edu",
+     "hostname": "www.csun.edu",
+     "port": "",
+     "pathname": "/",
+     "search": "",
+     "hash": "",
+     "assign": {},
+     "reload": {},
+     "replace": {},
+     "toString": {}
+    },
+    "jQuery1602114278098": 1
+   },
+   "msg": "If a timed response is required on this page, alert the user and provide sufficient time to allow them to indicate that more time is required."
+  }
+ ]
+}

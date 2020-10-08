@@ -1,4 +1,4 @@
-module.exports.testUrl = "http://stembound.education/";
+module.exports.testUrl = "https://www.csun.edu";
 module.exports.testUrls = [
     "http://stembound.education/",
     "https://www.google.com/",
